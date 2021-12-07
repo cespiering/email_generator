@@ -1,4 +1,0 @@
-MVP:
-Program that sends an email from a template to a company with a resume attachment
-
-Overview:
