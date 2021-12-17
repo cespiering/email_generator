@@ -1,0 +1,36 @@
+git notes
+
+git fetch v. git pull
+multiple branches created
+git fetch will grab all recent changes and new branches but will not update what is ucrrently
+on screen
+
+git fetch on main, get friend branch 1
+git checkout to friend branch 1 and have that branch locally but not update main (maybe have some changeson main
+that dont wanna update yet)
+
+git pull does both fetch and pull
+auto fetches all branches and updates what is on machine to be in sync with what is on git hub
+
+git branch - can see all of branches that are on local computer
+as of 12/17 only 1 branch
+
+to make new branch "git checkout -b smain" (only use -b to create new branch), elsejust enter git checkout s-main
+
+regular "checkout" -- if friend makes branch 1 and pushes to git hub. git fetch will have branch 1 in local file
+then use git checkout of branch 1 and now can use and see branch 1 clone--thus can make changes and commits, then push
+to github
+
+friend can do same thing. clone branch (proper command will be git fetch/git checkout -b _______(branch name)), make changes, commit and push to github
+branch name is like ticket number that is what branch name will be
+
+to switch back to main from other branch, git status will show where you are whats happening with git and what
+has not been saved, to return to main git checkout main
+
+"origin" means what is on github, because local computer files can be different from what is on github
+
+git add . == git add --all 
+
+"staged" --> means file is in holding zone until it is commited, can unstage as well
+staging is important later, point is making changes but maybe only want to commit one file as opposed to all files
+so stage one file, commit, that commit will only save changes from the one file that you have staged and committed
